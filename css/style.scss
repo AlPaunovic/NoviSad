@@ -224,8 +224,9 @@ gallery
     article:nth-child(4) {
         order: 3;
         span {
-            bottom: 30px;
+            // bottom: 30px;
             left: 30px;
+            right: auto;
         }
     }
     article:nth-child(5) {
@@ -306,10 +307,14 @@ strelica
 *********************/
 
 #strelica {
-    margin-top: 50px;
+    // margin-top: 50px;
     position: absolute;
     width: 80px;
-    height: auto;
-    bottom: -100px;
+    // height: auto;
+    bottom: 20px;
     right: 20px;
+}
+.strelica-na-dnu {
+    padding: 50px 0;
+    position: relative;
 }

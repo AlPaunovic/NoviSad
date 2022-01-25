@@ -281,8 +281,8 @@ gallery
 }
 
 .gallery article:nth-child(4) span {
-  bottom: 30px;
   left: 30px;
+  right: auto;
 }
 
 .gallery article:nth-child(5) {
@@ -396,11 +396,14 @@ footer article article p {
 strelica
 *********************/
 #strelica {
-  margin-top: 50px;
   position: absolute;
   width: 80px;
-  height: auto;
-  bottom: -100px;
+  bottom: 20px;
   right: 20px;
+}
+
+.strelica-na-dnu {
+  padding: 50px 0;
+  position: relative;
 }
 /*# sourceMappingURL=style.css.map */
